@@ -46,18 +46,52 @@ CV Coach is an intelligent, AI-powered resume analysis and career guidance tool 
 ---
 
 ## How It Works
-## 🚀 Installation
+### Installation
+1. **Download the code:**
+   ```bash
+   git clone https://github.com/deepakpadhi986/AI-Resume-Analyzer.git
+   ```
 
-Follow the steps below to set up and run the **CV Coach** application on your local machine.
+2. **Set up virtual environment:**
+   ```bash
+   # Navigate to project directory
+   cd AI-Resume-Analyzer
+   
+   # Create virtual environment
+   python -m venv venvapp
+   
+   # Activate virtual environment
+   cd venvapp/Scripts
+   activate
+   ```
 
----
+3. **Install dependencies:**
+   ```bash
+   # Navigate to App directory
+   cd ../..
+   cd App
+   
+   # Install required packages
+   pip install -r requirements.txt
+   python -m spacy download en_core_web_sm
+   ```
 
-### 1. Clone the Repository
+4. **Database Setup:**
+   - Create a MySQL database named `cv`
+   - Update database credentials in `App/App.py`:
+     ```python
+     connection = pymysql.connect(
+         host='localhost',
+         user='root',
+         password='root@MySQL4admin',
+         db='cv'
+     )
+     ```
 
-```bash
-git clone https://github.com/tripathiji16/CV-coach
-cd CV-coach
-
+5. **Run the app:**
+   ```bash
+   streamlit run App.py
+   ```
 
 ### Usage
 - Fill in your details and upload your resume (PDF).
