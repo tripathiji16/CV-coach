@@ -13,7 +13,7 @@
   - [Usage](#usage)
 - [About Pyresparser](#about-pyresparser)
 - [Developers](#developers)
-- [Contact](#contact)
+
 
 ---
 
@@ -96,7 +96,10 @@ CV Coach is an intelligent, AI-powered resume analysis and career guidance tool 
 ### Usage
 - Fill in your details and upload your resume (PDF).
 - The app will analyze your resume, provide a score, recommend skills and courses, and offer improvement tips.
+- Jump to the feedback page to rate the experience.
+- Login to admin side with given credentials: userid `admin` and password `admin@resume-analyzer`.
 - Admins can view analytics and user feedback.
+- for reference go to screenshots.
 
 ---
 
