@@ -99,12 +99,12 @@ CV Coach is an intelligent, AI-powered resume analysis and career guidance tool 
 - Jump to the feedback page to rate the experience.
 - Login to admin side with given credentials: userid `admin` and password `admin@resume-analyzer`.
 - Admins can view analytics and user feedback.
-- for reference go to screenshots.
+- for preview go to screenshots.
 
 ---
 
 ## About Pyresparser
-[pyresparser](https://github.com/OmkarPathak/pyresparser) is an open-source Python library for extracting information from resumes. It uses NLP techniques to parse PDF and DOCX files and extract fields like name, email, phone, education, skills, and more. CV Coach uses pyresparser to power its resume analysis and extraction features.
+[pyresparser](https://github.com/OmkarPathak/pyresparser) is an open-source Python library for extracting information from resumes. It uses NLP techniques to parse PDF and DOCX files and extract fields like name, email, phone, education, skills, and more. CV Coach uses pyresparser to power its resume analysis and extraction features. We sincerely thank Omkar Pathak for his open-source contribution — the pyresparser library. It played a crucial role in the development of CV Coach by enabling efficient and accurate resume parsing using Natural Language Processing.
 
 ---
 
