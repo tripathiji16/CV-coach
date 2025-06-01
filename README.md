@@ -49,13 +49,13 @@ CV Coach is an intelligent, AI-powered resume analysis and career guidance tool 
 ### Installation
 1. **Download the code:**
    ```bash
-   git clone https://github.com/deepakpadhi986/AI-Resume-Analyzer.git
+   git clone https://github.com/tripathiji16/CV-coach
    ```
 
 2. **Set up virtual environment:**
    ```bash
    # Navigate to project directory
-   cd AI-Resume-Analyzer
+   cd CV-coach
    
    # Create virtual environment
    python -m venv venvapp
@@ -111,9 +111,3 @@ CV Coach is an intelligent, AI-powered resume analysis and career guidance tool 
 
 ---
 
-## Contact
-For questions, feedback, or support, please contact the developers:
-- **Vaishnavi Tripathi:** [LinkedIn](https://www.linkedin.com/in/vaishnavi-tripathi-)
-- **Jai Srivastava:** [LinkedIn](https://www.linkedin.com/in/jai-srivastava-)
-
----
