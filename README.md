@@ -87,8 +87,13 @@ CV Coach is an intelligent, AI-powered resume analysis and career guidance tool 
          db='cv'
      )
      ```
+5. Go to the `venvapp\Lib\site-packages\pyresparser` folder
 
-5. **Run the app:**
+And replace the `resume_parser.py` with `resume_parser.py`
+
+which is provided above inside pyresparser folder.
+
+6. **Run the app:**
    ```bash
    streamlit run App.py
    ```
