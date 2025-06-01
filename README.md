@@ -46,22 +46,18 @@ CV Coach is an intelligent, AI-powered resume analysis and career guidance tool 
 ---
 
 ## How It Works
-### Installation
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/cvcoach.git
-   cd cvcoach
-   ```
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Set up MySQL database:**
-   - Create a database named `cv` and ensure your credentials are set in `.streamlit/secrets.toml`.
-4. **Run the app:**
-   ```bash
-   streamlit run App/App.py
-   ```
+## 🚀 Installation
+
+Follow the steps below to set up and run the **CV Coach** application on your local machine.
+
+---
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/tripathiji16/CV-coach
+cd CV-coach
+
 
 ### Usage
 - Fill in your details and upload your resume (PDF).
